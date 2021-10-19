@@ -72,6 +72,15 @@ em {
   }
 }
 
+.features-container {
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .features-container {
+    width: 80%;
+  }
+}
 
 
 #features {
@@ -93,6 +102,13 @@ em {
     font-size: 3vw;
   }
 }
+
+@media (max-width: 768px) {
+  #features p{
+    font-size: 20px;
+  }
+}
+
 
 /* PURCHASE */
 
